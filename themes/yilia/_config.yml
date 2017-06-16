@@ -6,8 +6,8 @@ menu:
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
+  github: "https://github.com/dodomogu"
+  weibo: "http://weibo.com/doDomoGu"
   rss: "#"
   zhihu: "#"
   #qq: "#"
@@ -59,7 +59,7 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar:
+avatar: /img/avatar.jpeg
 
 #是否开启分享
 share_jia: true
