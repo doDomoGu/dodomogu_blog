@@ -1,5 +1,6 @@
 ---
 title: Hello World
+date: 2013-01-12 11:35:46
 tags:
     - 随笔
 ---
