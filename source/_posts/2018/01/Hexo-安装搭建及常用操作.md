@@ -8,7 +8,7 @@ date: 2018-01-22 15:33:16
 
 ## 开篇：  
 Hexo官网：https://hexo.io/zh-CN/   
-Next主题包：https://github.com/iissnan/hexo-theme-next
+Next主题包：https://github.com/theme-next
 
 ## 简单的搭建
 安装Hexo
@@ -48,7 +48,7 @@ hexo g
 
 安装主题：
 将主题安装在themes/[主题名称]目录下  
-    git clone [https://github.com/iissnan/hexo-theme-next](https://github.com/iissnan/hexo-theme-next) themes/next   
+    git clone [https://github.com/theme-next](https://github.com/theme-next) themes/next   
     或  
     git clone [https://github.com/MOxFIVE/hexo-theme-yelee.git](https://github.com/MOxFIVE/hexo-theme-yelee.git) themes/yelee  
 
