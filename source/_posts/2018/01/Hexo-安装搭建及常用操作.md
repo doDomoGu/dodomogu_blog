@@ -6,8 +6,6 @@ tags:
 date: 2018-01-22 15:33:16
 ---
 
-
-# Hexo 安装搭建及常用操作 #
 ## 开篇：  
 Hexo官网：https://hexo.io/zh-CN/   
 Next主题包：https://github.com/iissnan/hexo-theme-next
