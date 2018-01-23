@@ -1,0 +1,17 @@
+
+title: doDomoGu's Blog
+
+
+language: zh-Hans
+
+#timezone: Asia/Shanghai
+
+keywords: "doDomoGu, Blog, Hexo, NexT"
+
+theme: next
+scheme: Gemini
+
+social:
+  GitHub: https://github.com/dodomogu || github
+
+since: 2014
