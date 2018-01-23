@@ -7,12 +7,16 @@ date: 2018-01-22 15:33:16
 ---
 
 ## 开篇：  
-Hexo官网：https://hexo.io/zh-CN/   
-Next主题包：https://github.com/theme-next
+Hexo官网：https://hexo.io/zh-cn/   
+Next主题包：https://github.com/theme-next/hexo-theme-next
 
 ## 简单的搭建
 安装Hexo
-> npm install -g hexo
+> npm install hexo -g 
+
+或者  
+安装 Hexo-cli 命令行工具
+> npm install hexo-cli -g
 
 进入工作目录，进行初始化
 > cd 工作目录  
@@ -46,11 +50,12 @@ hexo p
 > hexo generate    
 hexo g
 
-安装主题：
-将主题安装在themes/[主题名称]目录下  
-    git clone [https://github.com/theme-next](https://github.com/theme-next) themes/next   
-    或  
-    git clone [https://github.com/MOxFIVE/hexo-theme-yelee.git](https://github.com/MOxFIVE/hexo-theme-yelee.git) themes/yelee  
+# 安装主题：  
+将主题安装在 themes/[主题名称] 目录下  
+> git clone [https://github.com/theme-next/hexo-theme-next](https://github.com/theme-next/hexo-theme-next) themes/next
+   
+或   
+> git clone [https://github.com/MOxFIVE/hexo-theme-yelee.git](https://github.com/MOxFIVE/hexo-theme-yelee.git) themes/yelee  
 
 这里选取了一个主题 Next  
 修改主题配置： _config.yml 文件中 theme: next

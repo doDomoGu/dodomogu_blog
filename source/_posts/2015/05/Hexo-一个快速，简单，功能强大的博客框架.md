@@ -2,8 +2,7 @@
 title: 'Hexo:一个快速，简单，功能强大的博客框架'
 date: 2015-05-20 11:59:12
 tags:
-    - hexo
-    - web开发
+    - Hexo
 ---
 ## Hexo : A fast, simple & powerful blog framework
 
