@@ -17,7 +17,7 @@ Next主题包：https://github.com/theme-next/hexo-theme-next
 或者  
 安装 Hexo-cli 命令行工具
 > npm install hexo-cli -g
-
+<!-- more -->
 进入工作目录，进行初始化
 > cd 工作目录  
 hexo init
