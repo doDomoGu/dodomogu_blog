@@ -1,17 +1,15 @@
+theme_config:
+  keywords: "doDomoGu, Blog"
+    scheme: Gemini
 
-title: doDomoGu's Blog
+    social:
+      GitHub: https://github.com/dodomogu || github
 
+    footer: 
+      copyright: doDomoGu
+      since: 2014
 
-language: zh-Hans
-
-#timezone: Asia/Shanghai
-
-keywords: "doDomoGu, Blog, Hexo, NexT"
-
-theme: next
-scheme: Gemini
-
-social:
-  GitHub: https://github.com/dodomogu || github
-
-since: 2014
+    menu:
+      home: /
+      archives: /archives
+      tags: /tags  
