@@ -1,15 +1,21 @@
 theme_config:
   keywords: "doDomoGu, Blog"
-    scheme: Gemini
+  scheme: Gemini
 
-    social:
-      GitHub: https://github.com/dodomogu || github
+  social:
+    GitHub: https://github.com/dodomogu || github
 
-    footer: 
-      copyright: doDomoGu
-      since: 2014
+  footer: 
+    copyright: doDomoGu
+    since: 2014
 
-    menu:
-      home: /
-      archives: /archives
-      tags: /tags  
+  menu:
+    home: / || home
+    tags: /tags || tags
+    archives: /archives/ || archive
+
+  menu_settings:
+    icons: true
+    badges: true
+  
+  fancybox: true
