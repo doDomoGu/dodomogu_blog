@@ -10,7 +10,7 @@ date: 2018-02-03 08:56:17
 
 模板内的表达式非常便利，但是设计它们的初衷是用于简单运算的。在模板中放入太多的逻辑会让模板过重且难以维护。例如：  
 
-```
+```html
 <div id="example">
   {{ message.split('').reverse().join('') }}
 </div>
@@ -21,13 +21,13 @@ date: 2018-02-03 08:56:17
 
 基础例子
 ---
-```
+```html
 <div id="example">
   <p>Original message: "{{ message }}"</p>
   <p>Computed reversed message: "{{ reversedMessage }}"</p>
 </div>
 ```
-```
+```js
 var vm = new Vue({
   el: '#example',
   data: {
@@ -49,7 +49,7 @@ Original message: "Hello"
 Computed reversed message: "olleH"
 
 这里我们声明了一个计算属性 <span class="code-inline">reversedMessage</span>。我们提供的函数将用作属性 <span class="code-inline">vm.reversedMessage</span> 的 getter 函数：
-```
+```js
 console.log(vm.reversedMessage) // => 'olleH'
 vm.message = 'Goodbye'
 console.log(vm.reversedMessage) // => 'eybdooG'
@@ -63,10 +63,10 @@ console.log(vm.reversedMessage) // => 'eybdooG'
 计算属性缓存 vs 方法
 ---
 你可能已经注意到我们可以通过在表达式中调用方法来达到同样的效果：  
-```
+```html
 <p>Reversed message: "{{ reversedMessage() }}"</p>
 ```
-```
+```js
 // 在组件中
 methods: {
   reversedMessage: function () {
@@ -79,7 +79,7 @@ methods: {
 
 这也同样意味着下面的计算属性将不再更新，因为 Date.now() 不是响应式依赖：
 
-```
+```js
 computed: {
   now: function () {
     return Date.now()

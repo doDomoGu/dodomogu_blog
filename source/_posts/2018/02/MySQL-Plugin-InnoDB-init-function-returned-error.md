@@ -7,7 +7,7 @@ date: 2018-02-01 15:44:47
 
 
 MySQL Plugin 'InnoDB' init function returned error
--
+---
 
 ![错误日志](http://blog-source.dodomogu.com/WX20180201-153330@2x.png "MySQL 错误日志")
 

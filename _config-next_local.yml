@@ -133,3 +133,5 @@ theme_config:
     #mixins: source/_data/mixins.styl
     # Default path: source/css/_custom/custom.styl
     styles: source/_data/styles.styl
+
+  highlight_theme: night

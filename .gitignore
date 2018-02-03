@@ -5,3 +5,5 @@ _config.yml
 /package-lock.json
 
 /themes/next
+
+.vscode
