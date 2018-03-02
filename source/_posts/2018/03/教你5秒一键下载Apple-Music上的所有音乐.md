@@ -22,6 +22,7 @@ Apple Music 的好处除了上面说的包月制，无限制下载，版权多�
 
 ② 一部待下载歌曲的 iPhone，并登陆着同一 Apple ID。
 
+<!-- more -->
 操作：
 
 ① 在电脑上选择所有音乐，快捷键 Ctrl + A （Win）或 Command + A （Mac）
