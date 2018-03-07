@@ -4,7 +4,7 @@ tags:
   - IOS
 date: 2018-03-02 10:35:12
 ---
-![Apple Music](http://blog-source.dodomogu.com/WX20180302-105616@2x.png-w220)
+![Apple Music](http://blog-source.dodomogu.com/WX20180302-105616@2x.png-w1100)
 
 Apple Music 的好处除了上面说的包月制，无限制下载，版权多，iOS 上原生支持的优势也让它既省电又清爽，但缺点在于没有歌曲的评论功能，和网易云等一众音乐软件相比，对歌词的支持也是小儿科级别。 
 
@@ -26,19 +26,19 @@ Apple Music 的好处除了上面说的包月制，无限制下载，版权多�
 操作：
 
 ① 在电脑上选择所有音乐，快捷键 Ctrl + A （Win）或 Command + A （Mac）
-![选择所有音乐](http://blog-source.dodomogu.com/WX20180302-110430@2x.png-w220)
+![选择所有音乐](http://blog-source.dodomogu.com/WX20180302-110430@2x.png-w1100)
 
 ② 在歌曲上点击右键，选择添加到播放列表。
-![添加到播放列表](http://blog-source.dodomogu.com/WX20180302-110451@2x.png-w220)
+![添加到播放列表](http://blog-source.dodomogu.com/WX20180302-110451@2x.png-w1100)
 
 ③ 随便起个名，比如 “一键下载”。
-![新建播放列表](http://blog-source.dodomogu.com/WX20180302-110518@2x.png-w220)
+![新建播放列表](http://blog-source.dodomogu.com/WX20180302-110518@2x.png-w1100)
 
 ④ 然后拿出手机，就会发现这个播放列表已经同步到手机上了，点击下载即可。
-![手机上下载1](http://blog-source.dodomogu.com/WechatIMG17.jpeg-w220)
+![手机上下载1](http://blog-source.dodomogu.com/WechatIMG17.jpeg-w1100)
 
-![手机上下载2](http://blog-source.dodomogu.com/WechatIMG18.jpeg-w220)
+![手机上下载2](http://blog-source.dodomogu.com/WechatIMG18.jpeg-w1100)
 
-![手机上下载3](http://blog-source.dodomogu.com/WechatIMG19.jpeg-w220)
+![手机上下载3](http://blog-source.dodomogu.com/WechatIMG19.jpeg-w1100)
 
-![手机上下载4](http://blog-source.dodomogu.com/WechatIMG20.jpeg-w220)
+![手机上下载4](http://blog-source.dodomogu.com/WechatIMG20.jpeg-w1100)
