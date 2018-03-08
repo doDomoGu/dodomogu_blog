@@ -23,7 +23,7 @@ npm网站注册地址：https://www.npmjs.com/signup
 //输入以下命令，会提示输入用户名、密码、邮箱，这些都是注册时填写过的。
 npm login
 ```
-![npm_login](http://blog-source.dodomogu.com/WX20180228-103234@2x.png "npm login")
+![npm_login](http://blog-source.dodomogu.com/WX20180228-103234@2x.png-w1100 "npm login")
 
 创建一个自己的目录，进入目录，并进行npm初始化操作，建立配置文件：
 
