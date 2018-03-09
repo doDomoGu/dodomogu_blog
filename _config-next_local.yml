@@ -114,7 +114,8 @@ theme_config:
     home: / || home
     tags: /tags || tags
     archives: /archives/ || archive
-
+    历史清单: /历史清单-阅读-电影-番剧/index.html || star
+    
   menu_settings:
     icons: true
     badges: true
