@@ -114,7 +114,8 @@ theme_config:
     home: / || home
     tags: /tags || tags
     archives: /archives/ || archive
-    历史清单: /历史清单-阅读-电影-番剧/index.html || star
+    读书清单: /读书清单/index.html || book
+    影视清单: /影视清单/index.html || youtube-play
     
   menu_settings:
     icons: true
