@@ -4,6 +4,7 @@
   "overwrite"          :   true,
   "check_exists"       :   true,
   "check_hash"         :   true,
-  "check_size"         :   true
+  "check_size"         :   true,
+  "rescan_local"       :   true
 
 }
