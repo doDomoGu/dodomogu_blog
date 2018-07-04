@@ -1,0 +1,9 @@
+{
+  "src_dir"            :   "/Volumes/html/www/dodomogu_blog/public/",
+  "bucket"             :   "dodomo-blog",
+  "overwrite"          :   true,
+  "check_exists"       :   true,
+  "check_hash"         :   true,
+  "check_size"         :   true
+
+}
