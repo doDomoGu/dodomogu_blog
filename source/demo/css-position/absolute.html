@@ -6,29 +6,43 @@
 </head>
 <body>
     <style>
-        .relative1 {
+        .relative {
+            /* box-sizing: border-box; */
             position: relative;
+            width: 600px;
+            height: 400px;
             border: 1px solid #333;
             background:#cceeff;
-            width:500px;
-            height:200px;
         }
     
-        .relative2 {
-            position: relative;
-            top: -100px;
-            left: 50px;
+        .absolute {
+            position: absolute;
+            top: 120px;
+            right: 0;
+            width: 200px;
+            height: 100px;
             background-color: #f1a7a7;
-            width: 500px;
-            height: 200px;
+            border: 1px solid #333;
+        }
+
+        .absolute2 {
+            position: absolute;
+            top: 240px;
+            right: -1px;
+            width: 300px;
+            height: 100px;
+            background-color: #f1a7a7;
             border: 1px solid #333;
         }
     </style>
-    <div class="relative1">
-        区块1
-    </div>
-    <div class="relative2">
-        区块2
+    <div class="relative">
+        relative区块
+        <div class="absolute">
+            absolute区块
+        </div>
+        <div class="absolute2">
+            absolute区块2 <br/> (注意right值和border边框的关系)
+        </div>
     </div>
 </body>
 </html>
