@@ -7,10 +7,11 @@ date: 2018-07-05 15:32:55
 ---
 
 
-为了制作更多复杂的布局，我们必须要学习下 __position__ 属性。它有以下这些值：__static__、__relative__、__fixed__、__absolute__，具体可以查看[W3C手册](http://www.w3school.com.cn/cssref/pr_class_position.asp)。
+为了制作更多复杂的布局，我们必须要学习下 __position__ 属性。它有以下这些值：__static__、__relative__、__fixed__、__absolute__，具体可以查看[__W3C手册__](http://www.w3school.com.cn/cssref/pr_class_position.asp)。
 
 接下来让我来一一介绍这些属性值
 
+<!--more-->
 static
 ==
 
@@ -54,3 +55,25 @@ relative 表现的和 static 一样，除非你添加了一些额外的属性。
 </div>
 ```
 页面效果：[查看](/demo/css-position/relative.html) 或 <a href="/demo/css-position/relative.html" download="css-position-relative.html">下载</a> 
+
+fixed
+==
+一个固定定位（__position__ 属性的值为 __fixed__）元素会相对于视窗来定位，这意味着即便页面滚动，它还是会停留在相同的位置。和 __relative__ 一样， top 、 right 、 bottom 和 left 属性都可以用来调整它的相对位置。
+
+一个固定定位元素 __不会保留__ 它原本在页面应有的空隙（脱离文档流）。
+
+```html
+<style>
+.fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  background-color: white;
+}
+</style>
+```
+
+页面效果：[查看](/demo/css-position/fixed.html) 或 <a href="/demo/css-position/fixed.html" download="css-position-fixed.html">下载</a> 
+
+
