@@ -1,5 +1,5 @@
 ---
-title: recommend-favorite-of-frontend
+title: 推荐一个前端工具收藏夹
 tags:
   - 前端
   - 学习
