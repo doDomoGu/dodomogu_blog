@@ -9,7 +9,7 @@ date: 2018-03-18 10:03:42
 一贯的小人物（小公司）面临失败（倒闭），然后一路克服各种艰难险阻，又获得各种帮助，保持自己的初心，不受利益的诱惑，最终迎来一个大团圆的结局。
 
 <!--more-->
-![陆王](rikuou_reading/rikuou46.jpg)
+{% qnimg rikuou_reading/rikuou46.jpg title:陆王 alt:陆王}
 
 剧情主线由三个支线铺展开来
 
