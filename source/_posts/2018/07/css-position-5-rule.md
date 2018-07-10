@@ -20,7 +20,61 @@ tags:
 
 法则一：同辈元素定位方式相同，且无z-index设置时，html靠后者居上。
 ---
-{% qnimg 1.png %}       
+```css
+.div1 {
+    position: static;
+    border: 1px solid #333;
+    width:200px;
+    height:100px;
+    background: #eeffee;
+}
+.div2 {
+    position: static;
+    border: 1px solid #333;
+    margin-top: -40px;
+    margin-left: 40px;
+    width:200px;
+    height:100px;
+    background: #ffeeff;
+}
+.div3 {
+    position: relative;
+    border: 1px solid #333;
+    width:200px;
+    height:100px;
+    margin-top:20px;
+    background: #eeffee;
+}
+.div4 {
+    position: absolute;
+    border: 1px solid #333;
+    width:200px;
+    height:100px;
+    margin-top:-40px;
+    margin-left:40px;
+    background: #ffeeff;
+}
+.div5 {
+    position: absolute;
+    border: 1px solid #333;
+    width:200px;
+    height:100px;
+    margin-top:80px;
+    background: #eeffee;
+}
+.div6 {
+    position: relative;
+    border: 1px solid #333;
+    width:200px;
+    height:100px;
+    margin-top:140px;
+    margin-left:40px;
+    background: #ffeeff;
+}
+```
+页面效果：[查看](/demo/css-position-5-rule/1.html) 或 <a href="/demo/css-position-5-rule/1.html" download="css-position-5-rule-1.html">下载</a> 
+
+
 法则二：同辈元素同为动态定位时，且有z-index设置时，z-index值大者居上。
 ---
 

@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CSS布局之 position(定位)各属性值的五条叠加法则 （1） </title>
+</head>
+<body>
+    <style>
+        .div1 {
+            position: static;
+            border: 1px solid #333;
+            width:200px;
+            height:100px;
+            background: #eeffee;
+        }
+        .div2 {
+            position: static;
+            border: 1px solid #333;
+            margin-top: -40px;
+            margin-left: 40px;
+            width:200px;
+            height:100px;
+            background: #ffeeff;
+        }
+        .div3 {
+            position: relative;
+            border: 1px solid #333;
+            width:200px;
+            height:100px;
+            margin-top:20px;
+            background: #eeffee;
+        }
+        .div4 {
+            position: absolute;
+            border: 1px solid #333;
+            width:200px;
+            height:100px;
+            margin-top:-40px;
+            margin-left:40px;
+            background: #ffeeff;
+        }
+        .div5 {
+            position: absolute;
+            border: 1px solid #333;
+            width:200px;
+            height:100px;
+            margin-top:80px;
+            background: #eeffee;
+        }
+        .div6 {
+            position: relative;
+            border: 1px solid #333;
+            width:200px;
+            height:100px;
+            margin-top:140px;
+            margin-left:40px;
+            background: #ffeeff;
+        }
+    </style>
+    <div class='div1'>
+        div1 {position:static}
+    </div>
+    <div class='div2'>
+        div2 {position:static}
+    </div>
+    <div class='div3'>
+        div3 {position:relative}
+    </div>
+    <div class='div4'>
+        div4 {position:absolute}
+    </div>
+    <div class='div5'>
+        div5 {position:absolute}
+    </div>
+    <div class='div6'>
+        div6 {position:relative}
+    </div>
+</body>
+</html>
