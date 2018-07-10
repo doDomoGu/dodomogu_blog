@@ -141,21 +141,21 @@ theme_config:
   highlight_theme: night
 
   qiniu:
-  offline: false
-  sync: true
-  bucket: dodomo-blog
-  secret_file: qn.json
-  # access_key: 
-  # secret_key: 
-  dirPrefix: static
-  urlPrefix: http://blog-source.dodomogu.com/static
-  up_host: http://upload.qiniu.com
-  local_dir: static
-  update_exist: false
-  image: 
-    folder: images
-    extend: 
-  js:
-    folder: js
-  css:
-    folder: css
+    offline: false
+    sync: true
+    bucket: dodomo-blog
+    secret_file: qn.json
+    # access_key: 
+    # secret_key: 
+    dirPrefix: static
+    urlPrefix: http://blog-source.dodomogu.com/static
+    up_host: http://upload.qiniu.com
+    local_dir: static
+    update_exist: false
+    image: 
+      folder: images
+      extend: 
+    js:
+      folder: js
+    css:
+      folder: css
