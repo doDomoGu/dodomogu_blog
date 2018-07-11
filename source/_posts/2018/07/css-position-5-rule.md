@@ -78,6 +78,8 @@ tags:
 法则二：同辈元素同为动态定位时，且有z-index设置时，z-index值大者居上。
 ---
 
+页面效果：[查看](/demo/css-position-5-rule/2.html) 或 <a href="/demo/css-position-5-rule/2.html" download="css-position-5-rule-2.html">下载</a> 
+
 法则三：同辈元素定位方式不同时，动态定位居上。
 ---
 
