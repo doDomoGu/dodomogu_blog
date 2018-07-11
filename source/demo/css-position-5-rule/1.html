@@ -27,7 +27,6 @@
             border: 1px solid #333;
             width:200px;
             height:100px;
-            margin-top:20px;
             background: #eeffee;
         }
         .div4 {
@@ -44,7 +43,6 @@
             border: 1px solid #333;
             width:200px;
             height:100px;
-            margin-top:80px;
             background: #eeffee;
         }
         .div6 {
@@ -52,23 +50,35 @@
             border: 1px solid #333;
             width:200px;
             height:100px;
-            margin-top:140px;
+            margin-top:60px;
             margin-left:40px;
             background: #ffeeff;
         }
     </style>
+    <h3>法则一：同辈元素定位方式相同，且无z-index设置时，html靠后者居上。</h3>
+    
+    <div>情况1：两个都是static</div>
+    <br/>
     <div class='div1'>
         div1 {position:static}
     </div>
     <div class='div2'>
         div2 {position:static}
     </div>
+    <br/>
+
+    <div>情况2：两个都是动态定位</div>
+    <br/>
     <div class='div3'>
         div3 {position:relative}
     </div>
     <div class='div4'>
         div4 {position:absolute}
     </div>
+    <br/>
+
+    <div style="margin-top:80px;">情况3：两个都是动态定位</div>
+    <br/>
     <div class='div5'>
         div5 {position:absolute}
     </div>

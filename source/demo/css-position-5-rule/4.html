@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CSS布局之 position(定位)各属性值的五条叠加法则 （4） </title>
+</head>
+<body>
+    <style>
+        .div1 {
+            position: static;
+            border: 1px solid #333;
+            width: 200px;
+            height: 100px;
+            margin-left:20px;
+            background: #eeffee;
+        }
+        .div1-parent {
+            position: static;
+            border: 1px solid #333;
+            width: 240px;
+            height: 150px;
+            background:#eeeeff;
+        }
+        .div2 {
+            position: static;
+            border: 1px solid #333;
+            width:200px;
+            height:100px;
+            margin-left:20px;
+            background: #eeffee;
+        }
+        .div2-parent {
+            position: static;
+            border: 1px solid #333;
+            width: 240px;
+            height: 150px;
+            margin-top:-80px;
+            margin-left:80px;
+            background:#eeeeff;
+        }
+
+
+
+
+        .div3 {
+            position: static;
+            border: 1px solid #333;
+            width: 200px;
+            height: 100px;
+            margin-left:20px;
+            background: #eeffee;
+        }
+        .div3-parent {
+            position: static;
+            border: 1px solid #333;
+            width: 240px;
+            height: 150px;
+            margin-left:20px;
+            background:#eeeeff;
+        }
+        .div3-grand {
+            position: static;
+            border: 1px solid #333;
+            width: 280px;
+            height: 190px;
+            background:#ffeeff;
+        }
+        .div4 {
+            position: static;
+            border: 1px solid #333;
+            width:200px;
+            height:100px;
+            margin-left:20px;
+            background: #eeffee;
+        }
+        .div4-parent {
+            position: static;
+            border: 1px solid #333;
+            width: 240px;
+            height: 150px;
+            margin-left:20px;
+            background:#eeeeff;
+        }
+        .div4-grand {
+            position: static;
+            border: 1px solid #333;
+            width: 280px;
+            height: 190px;
+            margin-top:-80px;
+            margin-left:80px;
+            background:#ffeeff;
+        }
+    </style>
+    <h3>法则四：非同辈元素，任意一者及其祖元素不具备动态布局时，html靠后者居上。</h3>
+    
+    <div>情况1：两层嵌套</div>
+    <br/>
+    <div class='div1-parent'>
+        div1-parent {position:static}
+        <div class='div1'>
+            div1 {position:static}
+        </div>
+    </div>
+    <div class='div2-parent'>
+        div2-parent {position:static}
+        <div class='div2'>
+            div2 {position:static}
+        </div>
+    </div>
+    <br/>
+
+    <div style="margin-top:20px;">情况2：三层嵌套</div>
+    <br/>
+    <div class='div3-grand'>
+        div3-grand {position:static}
+        <div class='div3-parent'>
+            div3-parent {position:static}
+            <div class='div3'>
+                div3 {position:static}
+            </div>
+        </div>
+    </div>
+    <div class='div4-grand'>
+        div4-grand {position:static}
+        <div class='div4-parent'>
+            div4-parent {position:static}
+            <div class='div4'>
+                div4 {position:static}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

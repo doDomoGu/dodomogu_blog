@@ -42,7 +42,6 @@ tags:
     border: 1px solid #333;
     width:200px;
     height:100px;
-    margin-top:20px;
     background: #eeffee;
 }
 .div4 {
@@ -59,7 +58,6 @@ tags:
     border: 1px solid #333;
     width:200px;
     height:100px;
-    margin-top:80px;
     background: #eeffee;
 }
 .div6 {
@@ -67,7 +65,7 @@ tags:
     border: 1px solid #333;
     width:200px;
     height:100px;
-    margin-top:140px;
+    margin-top:60px;
     margin-left:40px;
     background: #ffeeff;
 }
@@ -157,6 +155,95 @@ tags:
 
 法则四：非同辈元素，任意一者及其祖元素不具备动态布局时，html靠后者居上。
 ---
+```css
+.div1 {
+    position: static;
+    border: 1px solid #333;
+    width: 200px;
+    height: 100px;
+    margin-left:20px;
+    background: #eeffee;
+}
+.div1-parent {
+    position: static;
+    border: 1px solid #333;
+    width: 240px;
+    height: 150px;
+    background:#eeeeff;
+}
+.div2 {
+    position: static;
+    border: 1px solid #333;
+    width:200px;
+    height:100px;
+    margin-left:20px;
+    background: #eeffee;
+}
+.div2-parent {
+    position: static;
+    border: 1px solid #333;
+    width: 240px;
+    height: 150px;
+    margin-top:-80px;
+    margin-left:80px;
+    background:#eeeeff;
+}
+
+
+
+
+.div3 {
+    position: static;
+    border: 1px solid #333;
+    width: 200px;
+    height: 100px;
+    margin-left:20px;
+    background: #eeffee;
+}
+.div3-parent {
+    position: static;
+    border: 1px solid #333;
+    width: 240px;
+    height: 150px;
+    margin-left:20px;
+    background:#eeeeff;
+}
+.div3-grand {
+    position: static;
+    border: 1px solid #333;
+    width: 280px;
+    height: 190px;
+    background:#ffeeff;
+}
+.div4 {
+    position: static;
+    border: 1px solid #333;
+    width:200px;
+    height:100px;
+    margin-left:20px;
+    background: #eeffee;
+}
+.div4-parent {
+    position: static;
+    border: 1px solid #333;
+    width: 240px;
+    height: 150px;
+    margin-left:20px;
+    background:#eeeeff;
+}
+.div4-grand {
+    position: static;
+    border: 1px solid #333;
+    width: 280px;
+    height: 190px;
+    margin-top:-80px;
+    margin-left:80px;
+    background:#ffeeff;
+}
+```
+
+页面效果：[查看](/demo/css-position-5-rule/4.html) 或 <a href="/demo/css-position-5-rule/4.html" download="css-position-5-rule-4.html">下载</a> 
+
 
 法则五：【重要】非同辈元素，任意一者或其祖元素拥有动态定位时，同时各自向上寻找动态定位的祖元素，并分别从中拿出具备最高级别的祖元素（或其本身）进行比较。
 ---
