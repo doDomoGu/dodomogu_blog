@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>CSS布局之 position(定位)各属性值的五条叠加法则 （2） </title>
+    <title>CSS布局之 position(定位)各属性值的五条叠加法则 （3） </title>
 </head>
 <body>
     <style>
@@ -12,9 +12,25 @@
             width:200px;
             height:100px;
             background: #eeffee;
-            z-index: 100;
         }
         .div2 {
+            position: static;
+            border: 1px solid #333;
+            margin-top: -40px;
+            margin-left: 40px;
+            width:200px;
+            height:100px;
+            background: #ffeeff;
+        }
+        .div3 {
+            position: static;
+            border: 1px solid #333;
+            width:200px;
+            height:100px;
+            background: #eeffee;
+            z-index: 100;
+        }
+        .div4 {
             position: absolute;
             border: 1px solid #333;
             width:200px;
@@ -23,45 +39,28 @@
             margin-left:40px;
             background: #ffeeff;
         }
-        .div3 {
-            position: absolute;
-            border: 1px solid #333;
-            width:200px;
-            height:100px;
-            background: #eeffee;
-            z-index: 100;
-        }
-        .div4 {
-            position: relative;
-            border: 1px solid #333;
-            width:200px;
-            height:100px;
-            margin-top:60px;
-            margin-left:40px;
-            background: #ffeeff;
-        }
     </style>
-    <h3>法则二：同辈元素同为动态定位时，且有z-index设置时，z-index值大者居上。</h3>
-    
-    <div>情况1：absolute的html位置靠后，但是relative的index值大，显示在上面</div>
+    <h3>法则三：同辈元素定位方式不同时，动态定位居上。</h3>
+    <div>情况1：static的在html的位置靠后，显示却在relative的下面</div>
     <br/>
     <div class='div1'>
-        div1 {position:relative;<br/>z-index:100}
+        div1 {position:relative}
     </div>
     <div class='div2'>
         <br/><br/>
-        div2 {position:absolute}
+        div2 {position:static}
     </div>
     <br/>
 
-    <div style="margin-top:80px;">情况2：relative的html位置靠后，但是absolute的index值大，显示在上面</div>
+    <div>情况2：static的z-index虽然较大，显示却在absolute的下面</div>
     <br/>
     <div class='div3'>
-        div3 {position:absolute;<br/>z-index:100}
+        div3 {position:static;<br/>z-index:100}
     </div>
     <div class='div4'>
-        <br/><br/>
-        div4 {position:relative}
+        div4 {position:absolute}
     </div>
+    <br/>
+
 </body>
 </html>

@@ -77,11 +77,83 @@ tags:
 
 法则二：同辈元素同为动态定位时，且有z-index设置时，z-index值大者居上。
 ---
+```css
+.div1 {
+    position: relative;
+    border: 1px solid #333;
+    width:200px;
+    height:100px;
+    background: #eeffee;
+    z-index: 100;
+}
+.div2 {
+    position: absolute;
+    border: 1px solid #333;
+    width:200px;
+    height:100px;
+    margin-top:-40px;
+    margin-left:40px;
+    background: #ffeeff;
+}
+.div3 {
+    position: absolute;
+    border: 1px solid #333;
+    width:200px;
+    height:100px;
+    background: #eeffee;
+    z-index: 100;
+}
+.div4 {
+    position: relative;
+    border: 1px solid #333;
+    width:200px;
+    height:100px;
+    margin-top:60px;
+    margin-left:40px;
+    background: #ffeeff;
+}
+```
 
 页面效果：[查看](/demo/css-position-5-rule/2.html) 或 <a href="/demo/css-position-5-rule/2.html" download="css-position-5-rule-2.html">下载</a> 
 
 法则三：同辈元素定位方式不同时，动态定位居上。
 ---
+```css
+.div1 {
+    position: relative;
+    border: 1px solid #333;
+    width:200px;
+    height:100px;
+    background: #eeffee;
+}
+.div2 {
+    position: static;
+    border: 1px solid #333;
+    margin-top: -40px;
+    margin-left: 40px;
+    width:200px;
+    height:100px;
+    background: #ffeeff;
+}
+.div3 {
+    position: static;
+    border: 1px solid #333;
+    width:200px;
+    height:100px;
+    background: #eeffee;
+    z-index: 100;
+}
+.div4 {
+    position: absolute;
+    border: 1px solid #333;
+    width:200px;
+    height:100px;
+    margin-top:-40px;
+    margin-left:40px;
+    background: #ffeeff;
+}
+```
+页面效果：[查看](/demo/css-position-5-rule/3.html) 或 <a href="/demo/css-position-5-rule/3.html" download="css-position-5-rule-3.html">下载</a> 
 
 法则四：非同辈元素，任意一者及其祖元素不具备动态布局时，html靠后者居上。
 ---
