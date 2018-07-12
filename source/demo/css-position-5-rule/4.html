@@ -46,7 +46,7 @@
             position: static;
             border: 1px solid #333;
             width: 200px;
-            height: 100px;
+            height: 110px;
             margin-left:20px;
             background: #eeffee;
         }
@@ -54,7 +54,7 @@
             position: static;
             border: 1px solid #333;
             width: 240px;
-            height: 150px;
+            height: 170px;
             margin-left:20px;
             background:#eeeeff;
         }
@@ -62,7 +62,7 @@
             position: static;
             border: 1px solid #333;
             width: 280px;
-            height: 190px;
+            height: 230px;
             background:#ffeeff;
         }
         .div4 {
@@ -91,9 +91,9 @@
             background:#ffeeff;
         }
     </style>
-    <h3>法则四：非同辈元素，任意一者及其祖元素不具备动态布局时，html靠后者居上。</h3>
+    <h3>法则四：非同辈元素，任意一者及其祖元素不具备动态布局时，html靠后者居上(无视z-index值)。</h3>
     
-    <div>情况1：两层嵌套</div>
+    <div>情况1：无z-index值</div>
     <br/>
     <div class='div1-parent'>
         div1-parent {position:static}
@@ -109,14 +109,17 @@
     </div>
     <br/>
 
-    <div style="margin-top:20px;">情况2：三层嵌套</div>
+    <div style="margin-top:10px;">情况2：设置了z-index值</div>
     <br/>
     <div class='div3-grand'>
-        div3-grand {position:static}
+        div3-grand {position:static;<br/>
+        z-index:100}
         <div class='div3-parent'>
-            div3-parent {position:static}
+            div3-parent {position:static; <br/>
+            z-index:100}
             <div class='div3'>
-                div3 {position:static}
+                div3 {position:static;<br/>
+                z-index:100}
             </div>
         </div>
     </div>

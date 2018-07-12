@@ -17,7 +17,7 @@ tags:
 注：这些概念为作者自定义，仅用于本文。
 
 接下来看看这五条法则:
-
+<!--more-->
 法则一：同辈元素定位方式相同，且无z-index设置时，html靠后者居上。
 ---
 ```css
@@ -245,8 +245,13 @@ tags:
 页面效果：[查看](/demo/css-position-5-rule/4.html) 或 <a href="/demo/css-position-5-rule/4.html" download="css-position-5-rule-4.html">下载</a> 
 
 
-法则五：【重要】非同辈元素，任意一者或其祖元素拥有动态定位时，同时各自向上寻找动态定位的祖元素，并分别从中拿出具备最高级别的祖元素（或其本身）进行比较。
+法则五：非同辈元素，任意一者或其祖元素拥有动态定位时，同时各自向上寻找动态定位的祖元素，并分别从中拿出具备最高级别的祖元素（或其本身）进行比较。
+情况1：子元素的z-index无论多大，父元素大者居上。
 ---
+```css
+
+```
+页面效果：[查看](/demo/css-position-5-rule/5.html) 或 <a href="/demo/css-position-5-rule/5.html" download="css-position-5-rule-5.html">下载</a> 
 
 情况1：子元素的z-index无论多大，父元素大者居上。
 
