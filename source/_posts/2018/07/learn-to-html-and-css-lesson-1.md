@@ -70,3 +70,11 @@ HTML，超文本标记语言，通过定义内容，例如标题、段落或图�
 ```html
 <a href="http://shayhowe.com/">Shay Howe</a>
 ```
+
+常用HTML术语演示
+===
+
+<iframe height='265' scrolling='no' title='qyZYrV' src='//codepen.io/doDomoGu/embed/qyZYrV/?height=265&amsp;theme-id=light&amsp;default-tab=html,result&amsp;embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/doDomoGu/pen/qyZYrV/'>qyZYrV</a> by Gu (<a href='https://codepen.io/doDomoGu'>@doDomoGu</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+以上代码会将文本 __Shay Howe__ 显示在网页上，且用户点击 __Shay Howe__ 文本后，会跳转到页面 http://shayhowe.com/ 。锚元素以开始标签&lt;a>和结束标签&lt;/a>围绕文本，并且在开始标签中用 __href=&quot;http://shayhowe.com/&quot;__ 声明超链接引用的属性和值。
