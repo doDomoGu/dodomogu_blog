@@ -122,9 +122,9 @@ HTML文档是用.html文件扩展名保存的纯文本文档，而不是.txt文�
 
 |自闭合标签|||
 |--|--|--|
-|&lt;br>|&lt;embed> | &lt;hr>|
-|&lt;img>| &lt;input>| &lt;link>|
-|&lt;meta> |&lt;param> |&lt;source>|
+|&lt;br>|&lt;embed>|&lt;hr>|
+|&lt;img>|&lt;input>|&lt;link>|
+|&lt;meta>|&lt;param>|&lt;source>|
 |&lt;wbr>|  |  |
 
 

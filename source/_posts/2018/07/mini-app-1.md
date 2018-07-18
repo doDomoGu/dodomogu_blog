@@ -1,8 +1,10 @@
 ---
-title: 【转】小程序·小故事（1）————分包加载
+title: 【转】小程序·小故事（1）——分包加载
 tags:
   - 小程序
   - 前端
+categories:
+  - 小程序·小故事
 date: 2018-07-02 12:01:03
 ---
 
@@ -46,11 +48,11 @@ date: 2018-07-02 12:01:03
 
 假设支持分包的小程序目录结构如下：
 
-![catalog](https://mmbiz.qpic.cn/mmbiz_png/Hm69WQTQfWHAJ0cYyRFEyDu0MPRQpbjEGiclezmwOlAmvsadsk8hZaV0iaQSmxQWDJQVWChBkZG4cFqfgS3hW4pQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1 "小程序目录结构")
+{% qnimg mini-app/1/1-1.jpeg title:小程序目录结构 alt:catalog %}
 
-开发者通过在 app.json subPackages 字段声明项目分包结构：
-![app.json](
-https://mmbiz.qpic.cn/mmbiz_png/Hm69WQTQfWHAJ0cYyRFEyDu0MPRQpbjELGS1fTTib5VniaMniatlQptjmN5TcicFN6ep5bwSUvAhX7R4jLoLZx725Q/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1 "app.json")
+开发者通过在 app.json __subPackages__ 字段声明项目分包结构：
+
+{% qnimg mini-app/1/1-2.jpeg title:app.json alt:app.json %}
 
 分包加载的低版本兼容问题
 --
