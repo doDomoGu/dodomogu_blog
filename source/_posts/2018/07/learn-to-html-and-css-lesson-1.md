@@ -172,4 +172,4 @@ HTML文档是用.html文件扩展名保存的纯文本文档，而不是.txt文�
 
 5. 现在是时候看看我们是如何做到的！让我们找到我们的文件 __index.html__(我的文件在我得桌面上的"风格-大会"文件夹里)。双击该文件或将其拖到Web浏览器中，来打开它供我们查看。
 
-{% qnimg learn-to-html-and-css/lesson-1/practice-1.png title:图表1：建设我们的"风格-大会"网站的第一部 alt:Our first steps into building our Styles Conference website %}
+{% qnimg learn-to-html-and-css/lesson-1/practice-1.png "title:图表1：建设我们的&quot;风格-大会&quot;网站的第一部" "alt:Our first steps into building our Styles Conference website" %}
