@@ -138,7 +138,7 @@ HTML文档是用.html文件扩展名保存的纯文本文档，而不是.txt文�
 >无论我们在编写代码时多么小心，我们都不可避免地会犯错误。值得庆幸的是，在编写HTML和CSS时，我们有校验器来检查我们的工作。W3C已经建立了用来扫描HTML和CSS代码错误的校验器。校验我们的代码不仅有助于它正确地跨浏览器运行，而且有助于教我们编写代码的最佳实践。
 
 实践
----
+===
 
 作为网页设计师和前端开发人员，我们有幸参加了许多致力于发展我们技术的大会。我们将要组建我们自己的大会——风格大会，并通过之后的课程为它建立一个网站。让我们开始吧！   
 1. 让我们打开文本编辑器，创建一个名为 __index.html__ 的新文件，并将其保存到一个我们不会忘记的位置。我将在我的桌面上创建一个名为"风格-大会"的文件夹，并那个新文件保存到这里面。   
@@ -172,4 +172,11 @@ HTML文档是用.html文件扩展名保存的纯文本文档，而不是.txt文�
 
 5. 现在是时候看看我们是如何做到的！让我们找到我们的文件 __index.html__(我的文件在我得桌面上的"风格-大会"文件夹里)。双击该文件或将其拖到Web浏览器中，来打开它供我们查看。
 
-{% qnimg learn-to-html-and-css/lesson-1/practice-1.png "title:图表1：建设我们的&quot;风格-大会&quot;网站的第一部" "alt:Our first steps into building our Styles Conference website" %}
+{% qnimg learn-to-html-and-css/lesson-1/practice-1.png "title:图表2：建设我们的&quot;风格-大会&quot;网站的第一部" "alt:Our first steps into building our Styles Conference website" %}
+
+让我们转换一下，先把HTML放一下，来看看CSS。记住！HTML定义网页的内容和结构，而CSS定义网页的视觉风格和表现。
+
+了解常用的CSS术语
+===
+
+除了HTML术语外，还有一些需要你去熟悉的常见的CSS术语。这些术语包括选择器（__Selectors__）、属性（__Properties__）和值（__Values__）。与HTML术语一样，CSS术语也越来越运用自如。
