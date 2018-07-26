@@ -315,17 +315,73 @@ CSS重置给每一个通用的HTML元素设置预定义样式，并为所有浏�
 实践
 ===
 
-回顾一下我们上次在"大会"网站上留下的地方，让我们看看是否可以添加一些CSS。
+回顾一下我们上次在"大会"网站上遗留的一些问题，让我们看看是否可以添加一些CSS。
 
+1. 在我们的"风格大会"文件夹中，让我们创建一个名为"__assets__"的新文件夹，我们将在该文件夹中存储我们网站的所有资源，如样式表、图片、视频等。对于我们的样式表，让我们先在"__assets__"文件夹中添加另一个名为"__stylesheets__"的文件夹。
 
+2. 让我们用我们的文本编辑器创建一个名为 __main.css__的新文件，并将它保存在我们刚刚创建的"__stylesheets__"文件夹中。
 
-在我们的“样式会议”文件夹中，让我们创建一个名为“资产”的新文件夹，我们将在该文件夹中存储我们网站的所有资产，如样式表、图像、视频等。对于我们的样式表，让我们先在“资产”文件夹中添加另一个名为“样式表”的文件夹。
+3. 在Web浏览器中查看我们的 __index.html__ 文件，我们可以看到&lt;h1>和&lt;p>元素都有默认的CSS样式。具体来说，它们每个都有一个特有的字体大小和间距。使用Eric Meyer的重置，我们可以弱化这些样式，让它们每一个变成同一种基础的风格。要做到这一点，让我们回到Eric的网站，复制他的重置代码，并粘贴到我们的 __main.css__ 文件的顶部。
+```css
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+```
 
+4. 随着我们的 __main.css__ 文件开始成形，让我们把它和我们的 __index.html__ 文件连接起来。在文本编辑器中打开 __index.html__ 文件，在 __&lt;head>__ 元素中添加 __&lt;link>__ 元素，跟在 __&lt;title>__ 元素之后。
 
-使用我们的文本编辑器，让我们创建一个名为MIN .CSS的新文件，并将它保存在我们刚刚创建的“样式表”文件夹中。
+5. 因为我们将使用&lt;link>元素来引用样式表，让我们添加关系属性（__rel__），并设置其值为 __stylesheet__。
 
+6. 还要包含一个超链接引用，使用 __href__ 属性，指向我们的 __main.css__ 文件。请记住，我们的 __main.css__ 文件保存在 "assets" 文件夹下的子文件夹 "stylesheets" 中。因此，__href__ 属性值是 __main.css__ 文件的路径，应该是 __assets/stylesheets/main.css__。
 
-
-在Web浏览器中查看我们的索引文件.html文件，我们可以看到<H1>和<p>元素都有默认的CSS样式。具体来说，它们每个都有一个独特的字体大小和间距。使用Eric Meyer的重置，我们可以淡化这些风格，让他们每个人都是从同一个基地的风格。要做到这一点，让我们回到埃里克的网站，复制他的重置，并粘贴到我们的Ma.CSS文件的顶部。
-              
+```html
+<head>
+  <meta charset="utf-8">
+  <title>Styles Conference</title>
+  <link rel="stylesheet" href="assets/stylesheets/main.css">
+</head>
+```
