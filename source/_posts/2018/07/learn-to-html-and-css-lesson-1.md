@@ -174,7 +174,7 @@ HTML文档是用.html文件扩展名保存的纯文本文档，而不是.txt文�
 
 5. 现在是时候看看我们是如何做到的！让我们找到我们的文件 __index.html__(我的文件在我得桌面上的"风格-大会"文件夹里)。双击该文件或将其拖到Web浏览器中，来打开它供我们查看。
 
-{% qnimg learn-to-html-and-css/lesson-1/practice-1.png "title:图表2：建设我们的&quot;风格-大会&quot;网站的第一部" "alt:Our first steps into building our Styles Conference website" %}
+{% qnimg learn-to-html-and-css/lesson-1/practice-1.png "title:图表2：建设我们的&quot;风格-大会&quot;网站的第一步" "alt:Our first steps into building our Styles Conference website" %}
 
 让我们转换一下，先把HTML放一下，来看看CSS。记住！HTML定义网页的内容和结构，而CSS定义网页的视觉风格和表现。
 
@@ -385,3 +385,45 @@ table {
   <link rel="stylesheet" href="assets/stylesheets/main.css">
 </head>
 ```
+
+是时候验收下我们的工作了，看看我们的HTML和CSS是否进展顺利。现在，在Web浏览器中打开我们的 __index.html__ 文件（或者如果已经打开则刷新页面）应该会显示出与以前略有不同的结果。    
+
+{% qnimg learn-to-html-and-css/lesson-1/practice-2.png "title:图表4：在我们的&quot;风格-大会&quot;网站中使用CSS重置" "alt:Our Styles Conference website with a CSS reset" %}
+
+总结
+===
+
+目前一切都好！我们在这一课中取得了很大的进步。
+
+试想一下，你现在掌握了HTML和CSS的基础知识。随着我们的继续，你会花更多的时间来写HTML和CSS，你也会对这两种语言越来越得心应手。
+
+回顾一下，我们已经覆盖了以下这些知识点：
+
+* HTML与CSS的区别
+
+* 了解HTML的元素、标签和属性
+
+* 创建第一个网页的结构
+
+* 了解CSS的选择器、属性和值
+
+* 使用CSS选择器
+
+* 在HTML中引用CSS
+
+* CSS重置的价值
+
+现在让我们更仔细学习HTML并了解一些语义。
+
+参考资料
+===
+
+* [Common HTML terms](http://www.scriptingmaster.com/html/HTML-terms-glossary.asp) via Scripting Master
+
+* [CSS Terms & Definitions](http://www.impressivewebs.com/css-terms-definitions/) via Impressive Webs 
+
+* [CSS Tools: Reset CSS](http://meyerweb.com/eric/tools/css/reset/) via Eric Meyer 
+
+* [Normalize.css](http://necolas.github.io/normalize.css/) via Nicolas Gallagher    
+
+* [An Intro to HTML & CSS](http://www.shayhowe.com/web-design/intro-to-html-css/) via Shay Howe
