@@ -1,7 +1,7 @@
 ---
 title: Yii2 Captcha验证码，在activeForm开启enableAjaxValidation时验证错误的解决办法
 tags:
-  - Yii2
+  - Yii
 date: 2016-10-23 03:07:18
 ---
 

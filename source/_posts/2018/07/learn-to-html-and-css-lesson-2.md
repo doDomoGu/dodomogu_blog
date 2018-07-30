@@ -2,9 +2,11 @@
 title: 【译】前端入门学习HTML&CSS （二）了解HTML
 date: 2018-07-13 17:45:31
 tags:
-  - 前端
+    - 教程
+    - 前端
+    - 文档翻译
 categories:
-  - 前端入门学习HTML&CSS
+    - 前端入门学习HTML&CSS
 ---
 
 原地址链接：[https://learn.shayhowe.com/html-css/getting-to-know-html/](https://learn.shayhowe.com/html-css/getting-to-know-html/)

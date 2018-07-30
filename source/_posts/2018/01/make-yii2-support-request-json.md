@@ -1,7 +1,7 @@
 ---
 title: 配置Yii2的request，使其可支持接收Json和Xml格式的数据
 tags:
-  - Yii2
+  - Yii
 date: 2018-01-24 10:56:42
 ---
 

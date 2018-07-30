@@ -1,8 +1,8 @@
 ---
 title: 别人的包里bug，用起来不方便？发布自己的npm包
 tags:
-  - npm
   - Node.js
+  - npm
 date: 2018-02-24 17:58:44
 ---
 我们基于nodejs平台上面的npm上，可以随意下载很多npm安装包。  

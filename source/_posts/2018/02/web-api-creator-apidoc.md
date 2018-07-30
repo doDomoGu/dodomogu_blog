@@ -2,7 +2,8 @@
 title: Web API文档生成工具apidoc
 date: 2018-02-06 16:43:43
 tags:
-    - web
+    - 教程
+    - npm
 ---
 推荐一个api文档生成工具 —— <span class="code-inline">apidoc</span>  
 

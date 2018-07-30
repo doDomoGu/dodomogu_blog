@@ -1,7 +1,7 @@
 ---
 title: Vue的计算属性和观察者
 tags:
-  - Vue
+  - Vue.js
 date: 2018-02-03 08:56:17
 ---
 

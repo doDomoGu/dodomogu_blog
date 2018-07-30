@@ -1,7 +1,7 @@
 ---
 title: Yii2扩展Swiftmailer 2.0.6版本发布
 tags:
-  - Yii2
+  - Yii
 date: 2016-09-21 10:16:49
 ---
 

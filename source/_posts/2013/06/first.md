@@ -1,5 +1,5 @@
 ---
-title: first
+title: 我的第一篇日志
 date: 2013-06-13 16:26:35
 tags:
 ---

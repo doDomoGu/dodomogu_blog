@@ -2,7 +2,6 @@
 title: JavaScript 创建自定义类型的最佳实践
 tags:
   - JavaScript
-  - 学习
 date: 2017-07-12 15:35:07
 ---
 

@@ -2,7 +2,7 @@
 title: Markdown 常用语法
 tags:
   - Markdown
-  - 学习
+  - 教程
 date: 2018-01-22 14:09:14
 ---
 

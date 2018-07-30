@@ -1,7 +1,7 @@
 ---
 title: Yii2扩展MongoDB 2.1.1版本发布
 tags:
-  - Yii2
+  - Yii
 date: 2016-09-21 11:00:56
 ---
 
