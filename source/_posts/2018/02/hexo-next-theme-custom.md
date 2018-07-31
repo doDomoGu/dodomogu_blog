@@ -8,7 +8,8 @@ date: 2018-02-03 09:37:46
 
 {% qnimg hexo-next-theme-custom/WX20180203-093229@2x.png title:默认配置 alt:_config.yml extend:-w1100 %}
 
-可以在Hexo博客项目根目录自定义路径上写css文件  
+可以在Hexo博客项目根目录自定义路径上写css文件 
+ 
 官网示例如上图创建在 <span class="code-inline">source/_data/styles.styl</span>
 
 
