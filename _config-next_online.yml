@@ -123,7 +123,7 @@ theme_config:
     icons: true
     badges: true
   
-  fancybox: true
+  fancybox: false
 
   custom_file_path:
     # Default paths: layout/_custom/*

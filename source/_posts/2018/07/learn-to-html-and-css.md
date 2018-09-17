@@ -19,11 +19,11 @@ date: 2018-07-12 15:54:12
 
 目录
 --
-+ 第一课 - [创建你自己的第一个网站](/2018/07/learn-to-html-and-css-lesson-1) ![](https://img.shields.io/badge/已完成-100%25-brightgreen.svg)
++ 第一课 - [创建你自己的第一个网站](/2018/07/learn-to-html-and-css-lesson-1) <img class="img-inline" src="https://img.shields.io/badge/已完成-100%25-brightgreen.svg" />
 
-+ 第二课 - [了解HTML](/2018/07/learn-to-html-and-css-lesson-2) ![](https://img.shields.io/badge/未完成-20%25-orange.svg)
++ 第二课 - [了解HTML](/2018/07/learn-to-html-and-css-lesson-2) <img class="img-inline" src="https://img.shields.io/badge/未完成-20%25-orange.svg" />
 
-+ 第三课 - [了解CSS](/2018/07/learn-to-html-and-css-lesson-3) ![](https://img.shields.io/badge/未完成-20%25-orange.svg)
++ 第三课 - [了解CSS](/2018/07/learn-to-html-and-css-lesson-3) <img class="img-inline" src="https://img.shields.io/badge/未完成-20%25-orange.svg" />
 
 + Lesson 4 - Opening the Box Model
 
